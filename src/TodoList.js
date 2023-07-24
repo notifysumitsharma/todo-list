@@ -12,6 +12,7 @@ const ToDoList = ({ todoList, handleFilter, handleToggle }) => {
           />
         );
       })}
+      {/* button for deletion */}
       <button
         style={{ margin: "20px", padding: "10px" }}
         onClick={handleFilter}
